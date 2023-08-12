@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    /* overflow: hidden; */
+}
+
+.navbar {
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+
+}
+
+.navbar .logo {
+    cursor: pointer;
+    font-family: 'wastogi';
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 25px;
+}
+.navbar .logo :hover{
+    transition: 0.5 ease-in-out;
+    text-shadow: -3px 2px 28px rgba(255, 255, 255, 0.5);
+
+}
+.navigation {
+    display: flex;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.nav-items {
+
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.login button {
+    cursor: pointer;
+    border: none;
+    background-color: #000;
+    color: aliceblue;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+
+.bg-img {
+    /* border: solid red; */
+    position: absolute;
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+    margin-top: 2%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1645680827507-9f392edae51c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+    background-repeat: no-repeat;
+    background-color: rgb(68, 68, 68);
+    background-blend-mode: hard-light;
+}
+
+h1{
+    margin: 5vh 30vh;
+    padding: 1% 10% 5%;
+    /* border: solid red; */
+    line-height: 100px;
+    font-family: "Monument";
+    font-size: 4rem;
+    text-shadow: -3px 10px 18px rgba(0, 0, 0, 1.5);
+    
+}
+
+h1 span{
+    color: rgb(251, 255, 0);
+    text-shadow: -3px 2px 48px rgb(253, 196, 16, 0.3);
+}
+
+.scroll-btn{
+    padding: 5% 5px;
+    font-family: "Monument" ;
+    font-size: 1em;
+}
+.scroll-btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
